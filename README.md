@@ -39,9 +39,11 @@ register:CREATE TABLE users (
  
 
 *interface login:
-<img width="566" alt="signin" src="https://github.com/aboussakkine-achraf/library/assets/80420443/82b0a6fd-cfaa-423d-a00e-66f261a1950c">
-<img width="105" alt="signup" src="https://github.com/aboussakkine-achraf/library/assets/80420443/f351be81-011c-4df6-8d36-3113d4d7eba8">
-<img width="586" alt="interface de gestion" src="https://github.com/aboussakkine-achraf/library/assets/80420443/c40e9b4f-24ea-4693-bc98-a7620e934d56">
+<div>
+<img width="200" height="200" alt="signin" src="https://github.com/aboussakkine-achraf/library/assets/80420443/82b0a6fd-cfaa-423d-a00e-66f261a1950c">
+<img width="200"height="200" alt="signup" src="https://github.com/aboussakkine-achraf/library/assets/80420443/f351be81-011c-4df6-8d36-3113d4d7eba8">
+<img width="200"height="200" alt="interface de gestion" src="https://github.com/aboussakkine-achraf/library/assets/80420443/c40e9b4f-24ea-4693-bc98-a7620e934d56">
+</div>
 *les fonctionnalitées:
 register(): permet de l'utilisateur de crée un compt
 login(): permet au utilisateur de se connecter a son compte
