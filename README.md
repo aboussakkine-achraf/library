@@ -3,15 +3,16 @@
 *les requêtes de mysql:
 
 -base de donnée des utilisateur:
-<img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
-<br>
-<br>
+
+
 
 
 
 *achraf
 
 -table:
+<img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
+<br/>
 register:CREATE TABLE users (
   id INT NOT NULL AUTO_INCREMENT,
   username VARCHAR(50) NOT NULL,
