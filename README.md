@@ -3,7 +3,8 @@
 *les requêtes de mysql:
 
 -base de donnée des utilisateur:
-
+<img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
+<br/>
 
 
 
@@ -17,9 +18,11 @@ register:CREATE TABLE users (
   PRIMARY KEY (id)
 );
 
-<img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
-<br/>
+
+
  *-base de donnée des livre:
+ <img width="692" alt="booktable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/6ffd70d6-a67a-4e4b-8ca2-fa53bd1a7bf0">
+ <br/>
  library_management
  
 -table:
