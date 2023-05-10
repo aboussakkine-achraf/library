@@ -16,8 +16,10 @@ register:CREATE TABLE users (
   password VARCHAR(255) NOT NULL,
   PRIMARY KEY (id)
 );
+
 <img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
- -base de donnée des livre:
+<br/>
+ *-base de donnée des livre:
  library_management
  
 -table:
