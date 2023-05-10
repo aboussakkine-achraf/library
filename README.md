@@ -41,5 +41,10 @@ deletebook(): permet a l'utilisateur de supprimer un livre.
 updatebook(): permet a l'utilisateur de supprimer un  livre 
 serchbook(): permet a l'utilisateur de chercher un livre
 showimage(): permet a l'utilisateur d'affiher l'image d'un livre.
+*diagramme de cas d'utilisation:
+![usecasee](https://github.com/aboussakkine-achraf/library/assets/114268936/eee87aa9-8fe9-4299-a0e9-959da25a600b)
+*diagramme de class:
+![WhatsApp Image 2023-05-10 at 14 09 03](https://github.com/aboussakkine-achraf/library/assets/114268936/f19a9953-23f3-4aac-af7d-d3718789239d)
+
 
 
