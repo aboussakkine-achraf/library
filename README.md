@@ -4,7 +4,17 @@
 
 -base de donnée des utilisateur:
 
-
+-table:
+ book_list:CREATE TABLE books (
+  book_id INT NOT NULL AUTO_INCREMENT,
+  book_name VARCHAR(255) NOT NULL,
+  author VARCHAR(255) NOT NULL,
+  edition VARCHAR(50) NOT NULL,
+  price DECIMAL(10,2) NOT NULL,
+  qty INT NOT NULL,
+  image VARCHAR(255),
+  PRIMARY KEY (book_id)
+);
 
 
 
@@ -27,17 +37,7 @@ register:CREATE TABLE users (
 
 * library_management
  
--table:
- book_list:CREATE TABLE books (
-  book_id INT NOT NULL AUTO_INCREMENT,
-  book_name VARCHAR(255) NOT NULL,
-  author VARCHAR(255) NOT NULL,
-  edition VARCHAR(50) NOT NULL,
-  price DECIMAL(10,2) NOT NULL,
-  qty INT NOT NULL,
-  image VARCHAR(255),
-  PRIMARY KEY (book_id)
-);
+
 *interface login:
 ![1](https://github.com/aboussakkine-achraf/library/assets/114268936/9f3fc4b4-7f0d-4a9c-b8aa-dc8f80cbe115)
 *interface register:
