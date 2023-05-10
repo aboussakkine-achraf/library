@@ -11,20 +11,20 @@
 *achraf
 
 -table:
-<img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
-<br/>
+
 register:CREATE TABLE users (
   id INT NOT NULL AUTO_INCREMENT,
   username VARCHAR(50) NOT NULL,
   password VARCHAR(255) NOT NULL,
   PRIMARY KEY (id)
 );
-
+<div>
+<img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
 
 
  *-base de donnée des livre:
  <img width="692" alt="booktable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/6ffd70d6-a67a-4e4b-8ca2-fa53bd1a7bf0">
- <br/>
+ </div>
 * library_management
  
 -table:
