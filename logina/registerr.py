@@ -176,10 +176,10 @@ class registration():
                 self.username_entry.focus()
             else:
                 # Hash the password using SHA-256
-                hashed_password = hashlib.sha256(self.password_entry.get().encode()).hexdigest()
-                hashed_username = hashlib.sha256(self.username_entry.get().encode()).hexdigest()
+                #hashed_password = hashlib.sha256(self.password_entry.get().encode()).hexdigest()
+                #hashed_username = hashlib.sha256(self.username_entry.get().encode()).hexdigest()
 
-                cur.execute("INSERT INTO register VALUES(%s, %s)", (hashed_username, hashed_password))
+                cur.execute("INSERT INTO register VALUES(%s, %s)", (self.username_entry.get(),self.password_entry.get()))
                 con.commit()
                 con.close()
 
