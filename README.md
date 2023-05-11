@@ -8,11 +8,11 @@ base donne gestion livre :library_management
 -table:
  book_list:CREATE TABLE book (
   book_id INT NOT NULL AUTO_INCREMENT,
-  book_name VARCHAR(255) NOT NULL,
-  author VARCHAR(255) NOT NULL,
-  edition VARCHAR(50) NOT NULL,
-  price DECIMAL(10,2) NOT NULL,
-  qty INT NOT NULL,
+  book_name VARCHAR(255) ,
+  author VARCHAR(255) ,
+  edition VARCHAR(50) ,
+  price DECIMAL(10,2) ,
+  qty INT ,
   image VARCHAR(255),
   PRIMARY KEY (book_id)
 );
@@ -25,8 +25,8 @@ base donne gestion livre :library_management
 
 register:CREATE TABLE register (
   id INT NOT NULL AUTO_INCREMENT,
-  username VARCHAR(50) NOT NULL,
-  password VARCHAR(255) NOT NULL,
+  username VARCHAR(50) ,
+  password VARCHAR(255) ,
   PRIMARY KEY (id)
 );
 <div>
