@@ -5,7 +5,7 @@
 -base de donnée des utilisateur:
 
 -table:
- book_list:CREATE TABLE books (
+ book_list:CREATE TABLE book (
   book_id INT NOT NULL AUTO_INCREMENT,
   book_name VARCHAR(255) NOT NULL,
   author VARCHAR(255) NOT NULL,
