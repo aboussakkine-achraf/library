@@ -1,5 +1,5 @@
 *titre : system gestion bibliotheque
-
+base donne gestion livre :library_management
 *les requêtes de mysql:
 *achraf
  
