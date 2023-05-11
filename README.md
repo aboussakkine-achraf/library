@@ -1,34 +1,11 @@
 *titre : system gestion bibliotheque
 base donne gestion livre :library_management
 *les requêtes de mysql:
-*achraf
+
+-base de donnée des utilisateur:*achraf
  
--base de donnée des utilisateur:
-
--table:
- book_list:CREATE TABLE book (
-  book_id INT NOT NULL AUTO_INCREMENT,
-  book_name VARCHAR(255) ,
-  author VARCHAR(255) ,
-  edition VARCHAR(50) ,
-  price DECIMAL(10,2) ,
-  qty INT ,
-  image VARCHAR(255),
-  PRIMARY KEY (book_id)
-);
 
 
-
-
-
--table:
-
-register:CREATE TABLE register (
-  id INT NOT NULL AUTO_INCREMENT,
-  username VARCHAR(50) ,
-  password VARCHAR(255) ,
-  PRIMARY KEY (id)
-);
 <div>
 <img width="245" alt="usertable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/bb3a671c-72b7-4326-8b88-e34c4c54c9c4">
  <img width="692" alt="booktable" src="https://github.com/aboussakkine-achraf/library/assets/80420443/6ffd70d6-a67a-4e4b-8ca2-fa53bd1a7bf0">
